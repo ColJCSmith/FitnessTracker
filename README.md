@@ -20,9 +20,11 @@ Minimum Viable Product. Ready for use, but requiring further testing and feedbac
 
 ## Key technologies
 Javascript
-SQL and Sequelize
-Handlebars
+MongoDB
 Node Experess
+
+## Installation
+Requires NPM, otherwise working on Heroku
 
 ## Code Example
 ```const workoutTypeSelect = document.querySelector("#type");
@@ -73,6 +75,3 @@ function handleWorkoutTypeChange(event) {
   }
   validateInputs();
 }```
-
-## Installation
-Requires NPM, otherwise working on Heroku

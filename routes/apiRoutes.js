@@ -18,7 +18,7 @@ module.exports = function (app) {
             res.json(response);
         }
         catch (err) {
-            console.log("The following error Error: ", err)
+            console.log("The following error occurred: ", err)
         }
     })
 
